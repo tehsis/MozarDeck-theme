@@ -33,6 +33,10 @@
   font-weight: 300;
 }
 
+.deck-container .slide.mozBlue h2.large {
+  font-size: 1.3em;
+}
+
 .deck-container .slide.mozRed h1 {
   color: #fff;
 }
@@ -78,6 +82,27 @@
 
 li.slide.mozBlue {
   background: none;
+}
+
+quote {
+  font-style: italic;
+  color: gray;
+  font-size: 0.7em;
+}
+
+quote:after, quote:before {
+  display: inline;
+  font-size: 35px;
+  font-weight: bolder;
+  content:"\"" ;
+}
+
+.mozRed quote {
+  color: white;
+}
+
+.centered_img {
+  margin-top: 10px;
 }
 
 .slide.mozBlue {
